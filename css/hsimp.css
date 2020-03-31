@@ -19,8 +19,8 @@ input {
     border-radius: 3px;
     padding: 0.25em 10px;
     line-height: 1em;
-    width: 550px;
-    height: 50px;
+    width: 500px;
+    height: 45px;
 }
 
 label::after {
