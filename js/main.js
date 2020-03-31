@@ -93,7 +93,7 @@ function passwordmodified() {
               }
             }
 
-            document.getElementById("iscompromised").innerHTML = '<span style="color: #ff0000;">This password was found <b>'+ pwnedcount + '</b> '+ timespell + ' in compromised passwords databases. <br> If this is your password, you should change it immediately. <br> Using a password that has been breached is extremely dangerous. <h4>If you are using this password on multiple websites, you should take the opportunity to start using different passwords for every website. Attackers can take the advantage of password reuse by automating login attempts on your account using breached emails and password pairs.</h4></span>';
+            document.getElementById("iscompromised").innerHTML = '<span style="color: #ff0000;">This password was found <b>'+ pwnedcount + '</b> '+ timespell + ' in compromised passwords databases. <br> If this is your password, you should change it immediately.</h4></span>';
           }else {
             document.getElementById("iscompromised").innerHTML = '<span style="color: #339966;">This password has never been breached.</span>';
           }
