@@ -53,7 +53,7 @@
 
 var requestTimeout;
 function passwordKeyPress(){
-    document.getElementById("iscompromised").innerHTML = '<span style="color: #ff9900;"><img src="img/loading.gif" alt="" width="25" height="25" />&nbsp;We are checking to see if your password has ever been compromised...</span>';
+    document.getElementById("iscompromised").innerHTML = '<span style="color: #ff9900;">&nbsp;We are checking to see if your password has ever been compromised...</span>';
     
     clearTimeout(requestTimeout);
     requestTimeout = setTimeout(passwordmodified, 2000);
