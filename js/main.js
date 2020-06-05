@@ -95,7 +95,7 @@ function passwordmodified() {
 
             document.getElementById("iscompromised").innerHTML = '<span style="color: #ff0000;">This password was found <b>'+ pwnedcount + '</b> '+ timespell + '&nbspin breached records. <br> You should change your password.</h4></span>';
           }else {
-            document.getElementById("iscompromised").innerHTML = '<span style="color: #339966;">This password has never been breached.</span>';
+            document.getElementById("iscompromised").innerHTML = '<span style="color: #339966;">Password not found in breach records.</span>';
           }
         }
       };
