@@ -59,17 +59,17 @@ div {
 .hsimp-level--bad,
 
 .hsimp-level--insecure{
-    background-color:#fff
+    background-color:rgb(134, 134, 134)
 }
 
 .hsimp-level--ok{
-    background-color:#fff
+    background-color:rgb(134, 134, 134)
 }
 
 .hsimp-level--good{
-    background-color:#fff
+    background-color:rgb(134, 134, 134)
 }
 
 .mdl-layout__header {
-    background-color: #fff;
+    background-color: rgb(134, 134, 134);
 }
